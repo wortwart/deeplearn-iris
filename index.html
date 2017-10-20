@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Herbert Braun"/>
+		<title>deeplearn.js: Iris</title>
+		<script src="https://unpkg.com/deeplearn" defer></script>
+		<script src="./iris.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="./node_modules/skeleton-css/css/skeleton.css">
+		<style type="text/css">
+		body {
+			max-width: 50em;
+			margin: 0 auto;
+			padding: 1em;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>deeplearn.js: Iris</h1>
+		<h2>Maschinenlernen im Browser</h2>
+		<h3>Ein Projekt von <a href="https://woerter.de/">Herbert Braun</a> für <a href="https://ct.de/">c't Magazin</a>, Herbst 2017</h3>
+		<p>Das Skript liest die <a href="https://en.wikipedia.org/wiki/Iris_flower_data_set">Iris-Datenbank</a> ein, die mit 150 Datensätzen drei verschiedene Iris-Arten anhand von vier Attributen unterscheidet. Auf dieser Grundlage wird mit Hilfe von <a href="https://pair-code.github.io/deeplearnjs/">deeplearn.js</a> ein Graph trainiert und getestet. Anschließend kann man selbst Daten eingeben. Die Maschine versucht, die dazu passende Art zu ermitteln. Da nicht alle Wertkombinationen Sinn ergeben, orientiert man sich bei der Eingabe am besten an den realen Daten (siehe Tabelle unten).</p>
+		<ul id="log">
+			<li>Starte Training und Tests ... (das dauert ein bisschen)</li>
+		</ul>
+		<figure></figure>
+		<form></form>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "deeplearn-iris",
+  "version": "1.0.0",
+  "description": "Use deeplearn.js with the Iris database for machine learning in the browser",
+  "repository": "https://github.com/wortwart/deeplearn-iris",
+  "main": "index.html",
+  "dependencies": {
+    "deeplearn": "latest",
+    "skeleton-css": "2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Herbert Braun",
+  "license": "MIT"
+}
